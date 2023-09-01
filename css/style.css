@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+}
+.container {
+    width: 320px;
+}
+h1 {
+    margin-bottom: 10px;
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+.input-box {
+    width: 100%;
+    background: orange;
+    border: 2px solid orange;
+}
+.input-box input {
+    padding: 10px;
+    width: 85%;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+.input-box i {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px orange solid;
+    color: #fff;
+}
+
+button {
+    padding: 15px;
+    margin-top: 10px;
+    width: 100%;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
